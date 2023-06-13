@@ -5,7 +5,7 @@ OOF is a program created to utilize existing bioinformatic and sequence analysis
 Installing OOF requires downloading the python program and its dependencies in a Linux or Mac operating system. To run OOF you will need the python script, python3 (or later versions), and the MEME suite available at (https://meme-suite.org/meme/)
 
 ## Usage
-python oof_v3.3.py - i FASTA formatted file of known gene family sequences -o genome file of species that the sequences in -i are from (-n) specify number of motifs for MEME search, default: 10 (-e) pre-determined e-value threshold, if known (-h) help menu
+python oof_v3.3.py - i FASTA formatted file of known gene family sequences -o genome file of species that the sequences in input are from (-n) specify number of motifs for MEME search, default: 10 (-e) pre-determined e-value threshold, if known (-h) help menu
 
 ## Example Files
 The provided Example Files folder contains the file set-up for a regular OOF search. All genomes to be searched must be CDS genome files in fasta format contained in a "Genomes" directory folder. The example files genome folder contains six sample CDS genomes from within Angiosperms. Within the Example Files folder where is also a fasta format file of 4 gene sequences of the LORELEI and LORELI-like gene family (LLG) from Arabidopsis thaliana (LLG_seqs.fasta)
